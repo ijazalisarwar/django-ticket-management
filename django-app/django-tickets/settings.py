@@ -183,9 +183,9 @@ MESSAGE_TAGS = {
 
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = (
-    "523998700401-sieehalihf7pokeretcap0kh3ueoos9j.apps.googleusercontent.com"
+    ""
 )
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "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"
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ""
 
 
 LOGIN_REDIRECT_URL = "check_user"
@@ -214,8 +214,8 @@ SOCIALACCOUNT_PROVIDERS = {
     "microsoft": {
         "APPS": [
             {
-                "client_id": "2fc4549d-50f0-46a9-9689-db0fc1966eb7",
-                "secret": "Ymd8Q~9fsj7-fyU0aNnkrYCid1zJ4fKJCzmaRaUm",
+                "client_id": "",
+                "secret": "",
             }
         ]
     },
@@ -223,10 +223,6 @@ SOCIALACCOUNT_PROVIDERS = {
 ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https"
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://dev.django-tickets.com",
-    "https://django-tickets.com",
-    "https://ticketbartering.com",
-    "https://ticketbarterer.com",
 ]
 
 CSRF_COOKIE_SECURE = True

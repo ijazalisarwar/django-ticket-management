@@ -36,7 +36,7 @@ def send_html_email(subject, recipient_list, html_message):
     try:
         # Initialize the SendGrid client
         sg = SendGridAPIClient(
-            "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"
+            ""
         )
         # Send the email
         response = sg.send(message)
