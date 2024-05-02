@@ -1,0 +1,108 @@
+.container {
+  padding: 100px 0 200px 175px;
+}
+.logo {
+  margin-left: 15%;
+}
+.heading {
+  color: #1a459c;
+  font-family: "Urbanist";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 51px;  */
+}
+
+.para {
+  color: #1a459c;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.formInput {
+  border-radius: 35px;
+  background: #a3def6;
+  color: #1a459c;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 40%;
+  margin: 5px 0;
+}
+
+.formInput::placeholder {
+  color: #1a459c;
+}
+
+.btn {
+  margin: 0px 0;
+  padding: 7px 25px;
+  border-radius: 35px;
+  background: #1a459c;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-shadow: 0px 4px 4px 0px rgba(26, 69, 156, 0.18);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .container {
+    padding: 10px;
+  }
+  .logo {
+    margin-left: 3%;
+  }
+  .heading {
+    font-size: 45px;
+  }
+
+  .para {
+    font-size: 14px;
+  }
+
+  .formInput {
+    font-size: 12px;
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .container {
+    padding: 10px;
+  }
+  .logo {
+    margin-left: 3%;
+  }
+  .heading {
+    font-size: 70px;
+  }
+
+  .para {
+    font-size: 14px;
+  }
+
+  .formInput {
+    font-size: 12px;
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+}

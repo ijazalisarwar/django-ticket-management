@@ -1,0 +1,35 @@
+.backgroundImageStyle {
+  background-image: url("../../public/background.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Mobile */
+@media (min-width: 400px) and (max-width: 700px) {
+  .backgroundImageStyle {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url("../../public/background.png");
+    background-blend-mode: overlay;
+    height: 110vh;
+  }
+}
+@media (max-width: 399px) {
+  .backgroundImageStyle {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url("../../public/background.png");
+    background-blend-mode: overlay;
+    height: 150vh;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+/* @media (min-width: 701px) and (max-width: 1120px) {
+} */

@@ -1,0 +1,4 @@
+cronjob_output.txt
+**/__pycache__/
+.env
+.github

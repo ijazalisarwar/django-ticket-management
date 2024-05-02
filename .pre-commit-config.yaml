@@ -1,0 +1,20 @@
+exclude: '^(django-app/staticfiles)|(migrations/)'
+repos:
+-   repo: https://github.com/asottile/seed-isort-config
+    rev: v1.9.2
+    hooks:
+    -   id: seed-isort-config
+-   repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-docstring-first
+    -   id: debug-statements
+    -   id: requirements-txt-fixer
+    -   id: check-merge-conflict
