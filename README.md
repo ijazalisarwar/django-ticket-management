@@ -1,6 +1,6 @@
-# Ticket Barter
+# Ticket Management
 
-Ticket Barter is a platform for ticket exchange, providing users with information about events and venues sourced from the Ticket Master Discovery API.
+Ticket Management is a platform for ticket exchange, providing users with information about events and venues sourced from the Ticket Master Discovery API.
 
 ## Overview
 
